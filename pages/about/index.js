@@ -76,7 +76,7 @@ const About = () => {
         <h2 className="text-3xl">
           Наш <span className="text-accent">ідеальний</span> кандидат
           </h2>
-        <p className="max-w-[500px] mx-auto font-bold text-sm xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+        <p className="max-w-[500px] mx-auto mt-3 font-bold text-sm  xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
         У кожному кандидаті є потенціал стати цінним активом нашої компанії.
         </p>
         </div>
