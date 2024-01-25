@@ -73,10 +73,10 @@ const About = () => {
     <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 gap-y-10">
       {/* text */}
       <div className="flex-1 flex flex-col justify-center ">
-        <h2 className="text-3xl">
+        <h2 className="text-2xl">
           Наш <span className="text-accent">ідеальний</span> кандидат
           </h2>
-        <p className="max-w-[500px] mx-auto font-bold xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+        <p className="max-w-[500px] mx-auto font-bold text-sm xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
         У кожному кандидаті є потенціал стати цінним активом нашої компанії.
         </p>
         </div>
