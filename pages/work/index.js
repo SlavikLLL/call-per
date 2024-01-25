@@ -62,7 +62,7 @@ const Work = () => {
             І чим далі ти розвиваєшся - тим вище заробітня плата  .
           </p>
         </div>
-        <div className="w-full xl:max-w-[68%]">
+        <div className="w-full xl:max-w-[68%] mt-10">
           {/*slider */}
           <WorkSlider />
         </div>
