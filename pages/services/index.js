@@ -48,8 +48,8 @@ const Services = () => {
       <div className="flex flex-col xl:flex-row gap-x-8">
         {/*text */}
         <div className="text-center flex xl:w-[36vw] flex-col lg:text-left mb-4 xl:mb-0">
-          <h2 className="text-3xl xl:mt-8"> <span className="text-accent">Наш </span> офіс</h2>
-          <p className="mb-4 max-w-[400px] text-sm font-bold text-md mx-auto lg:mx-0">
+          <h2 className="text-xl xl:mt-8"> <span className="text-accent">Наш </span> офіс</h2>
+          <p className="mb-4 max-w-[400px] text-sm font-bold mx-auto lg:mx-0">
           Стимулююче робоче середовище:<br /> У нас панує атмосфера, яка надихає на досягнення результатів, а кожен день приносить нові виклики .
         </p>
         </div>
