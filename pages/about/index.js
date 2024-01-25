@@ -37,9 +37,7 @@ const aboutData = [
       {
         title: 'Вміння та прагнення саморозвитку , праця  на результат ',
       },
-      {
-        title: 'Прагнення карʼєрного зросту ',
-      },
+      
       {
         title: 'Вміння  працювати в команді',
       },
@@ -96,7 +94,7 @@ const About = () => {
         {aboutData[index].info.map((item,itemIndex)=>{
           return(
             <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-maw gap-x-2 items center text-white/60">
-             <div className="font-bold text-sm  mb-2 md:mb-0"> - {item.title}</div> 
+             <div className="font-bold text-4  mb-2 md:mb-0"> - {item.title}</div> 
              <div className="flex gap-x-4">
              {/* icons */}
              {item.icons?.map((icon,itemIndex)=>{
