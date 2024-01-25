@@ -74,7 +74,7 @@ const WorkSlider = () => {
           <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
             {slide.images.map((image,index)=>{
               return <div key={index} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
-                <div className="flex items-center justify-center relative overflow-hidden">
+                <div className="flex  items-center justify-center relative overflow-hidden">
                   {/* image */}
                   <Image src={image.path} width={200} height={100} alt="" />
                   <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#a5f706] to-[#679a05] opacity-0 group:hover:opacity:80 transition-all duration-700"></div>
