@@ -73,7 +73,7 @@ const About = () => {
     <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 gap-y-10">
       {/* text */}
       <div className="flex-1 flex flex-col justify-center ">
-        <h2 className="h2">
+        <h2 className="text-3xl">
           Наш <span className="text-accent">ідеальний</span> кандидат
           </h2>
         <p className="max-w-[500px] mx-auto font-bold xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
@@ -81,16 +81,16 @@ const About = () => {
         </p>
         </div>
         {/* info */}
-      <div className=" mb-24 flex flex-col w-full xl:max-w-[48%] h-[340px]">
+      <div className="  flex flex-col w-full xl:max-w-[48%] h-[340px]">
         <div className="flex gap-x-4 mx-auto xl:mx-0 mb-4">
           {aboutData.map((item,itemIndex)=>{
             return (
-            <div key={itemIndex} onClick={()=>setIndex(itemIndex)} className={`${index === itemIndex && 'text-accent after:w-[100%]  after:bg-accent after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}>
+            <div key={itemIndex} onClick={()=>setIndex(itemIndex)} className={`${index === itemIndex && 'text-accent after:w-[100%]  after:bg-accent after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 `}>
               {item.title}</div>
             )
           })}
         </div>
-        <div className=" py-2 xl:py-6  flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
+        <div className="  xl:py-6  flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
         {aboutData[index].info.map((item,itemIndex)=>{
           return(
             <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-maw gap-x-2 items center text-white/60">
