@@ -48,14 +48,14 @@ const Work = () => {
       <div className="flex flex-col xl:flex-row gap-x-8">
         {/*text */}
         <div className="text-center flex xl:w-[36vw] flex-col lg:text-left mb-4 xl:mb-0">
-          <h2 className="text-xl xl:mt-8"> <span className="text-accent">Умови</span> праці</h2>
-          <p className="mb-4 text-sm max-w-[400px] mx-auto lg:mx-0">
+          <h2 className="text-lg xl:mt-8"> <span className="text-accent">Умови</span> праці</h2>
+          <p className="mb-4 text-xs max-w-[400px] mx-auto lg:mx-0">
             -Комфортні умови праці:<br />
             В випадку якщо , Ви з іншого міста, компанія бере на себе фінансові витрати житла.<br />
             -Ми супроводжуєм кожного співробітника до результата.
           </p>
-          <h2 className="text-xl xl:mt-8"> <span className="text-accent">Заробітна </span>плата</h2>
-          <p className="mb-4 text-sm max-w-[400px] mx-auto lg:mx-0">
+          <h2 className="text-lg xl:mt-8"> <span className="text-accent">Заробітна </span>плата</h2>
+          <p className="mb-4 text-xs max-w-[400px] mx-auto lg:mx-0">
             Перший місяць - від 12000 - 20000&#8372;.< br />
             Другий місяць - від 20000 - 27000&#8372;.< br />
             Шостий місяця - зазвичай перевищує 35000&#8372;.< br />

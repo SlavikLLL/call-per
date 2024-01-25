@@ -76,7 +76,7 @@ const WorkSlider = () => {
               return <div key={index} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
                 <div className="flex items-center justify-center relative overflow-hidden">
                   {/* image */}
-                  <Image src={image.path} width={500} height={300} alt="" />
+                  <Image src={image.path} width={300} height={200} alt="" />
                   <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#a5f706] to-[#679a05] opacity-0 group:hover:opacity:80 transition-all duration-700"></div>
                 </div> 
               </div>
