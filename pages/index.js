@@ -19,7 +19,7 @@ const Home = () => {
         animate='show'
         exit='hidden'
         className="h1">
-          Робота в Одесі<br /> для <span className="text-accent"> молодих</span> та <br /> <span className="text-accent">амбітних</span>
+          Робота в Одесі<br /> для <span className="text-accent"> молодих</span> та <br /> <span className="text-accent">амбіційних</span>
           </motion.h1>
            {/* subtitles  */}
            <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 text-lg font-bold xl:mb-16">
